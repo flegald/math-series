@@ -33,12 +33,12 @@ if __name__ == "__main__":
 
     print "fibonacci(n): Returns the nth value in the fibonacci series"
 
-    print "fibonacci(2) = " + str(fibonacci(2))
+    print "fibonacci(2) returns " + str(fibonacci(2))
 
     print"lucas(n): Returns the nth value in the lucas sum_series"
 
-    print "lucas(2) = " + str(lucas(2))
+    print "lucas(2) returns " + str(lucas(2))
 
     print "sum_series(n, a, b): Returns the nth value of a custom series with a and b being starting points(0,1) are default"
  
-    print "sum_series(2,1,4) = " + str(sum_series(2,1,4))
+    print "sum_series(2,1,4) returns " + str(sum_series(2,1,4))
