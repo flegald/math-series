@@ -29,18 +29,16 @@ def lucas(n):
     return sum_series(n, 2, 1)
 
 if __name__ == "__main__":
-    """This module defines functions that implement mathematical series.
-    ...
+    print "This module defines functions that implement mathematical series."
 
-    fibonacci(n):
+    print "fibonacci(n): Returns the nth value in the fibonacci series"
 
-        Returns the nth value in the fibonacci series
+    print "fibonacci(2) = " + str(fibonacci(2))
 
-    >>> fibonacci(2)
-    1
+    print"lucas(n): Returns the nth value in the lucas sum_series"
 
-    lucas(n):
-        Returns the nth value in the lucas sum_series
+    print "lucas(2) = " + str(lucas(2))
 
-    sum_series(n, a, b):
-        returns the nth value of a custom series with a and b being starting points(0,1) are default"""
+    print "sum_series(n, a, b): Returns the nth value of a custom series with a and b being starting points(0,1) are default"
+ 
+    print "sum_series(2,1,4) = " + str(sum_series(2,1,4))
